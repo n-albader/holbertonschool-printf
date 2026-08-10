@@ -14,6 +14,8 @@ int process_format(char specifier, va_list args)
 		return (print_string(args));
 	else if (specifier == '%')
 		return (print_percent(args));
+	else if (specifier == 'd' || specifier == 'i')
+		return (print_number(args));
 
 	_putchar('%');
 	return (1 + _putchar(specifier));
