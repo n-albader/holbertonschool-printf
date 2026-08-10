@@ -16,3 +16,6 @@ This project implements a simplified version of the C printf function.
 - %c - character
 - %s - string
 - %% - percent sign
+
+
+Hello
