@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * process_format_format - handles format specifiers
+ * process_format - handles format specifiers
  * @specifier: character after %
  * @args: argument list
  * Return: number of characters printed
  */
-int process_format_format(char specifier, va_list args)
+int process_format(char specifier, va_list args)
 {
 	if (specifier == 'c')
 		return (print_char(args));
