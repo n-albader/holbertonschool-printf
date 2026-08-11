@@ -21,12 +21,12 @@ static int print_unsigned_recursive(unsigned int n)
 }
 
 /**
- * print_unsigned - prints an unsigned integer
+ * print_uint - prints an unsigned integer
  * @args: argument list
  *
  * Return: number of characters printed
  */
-int print_unsigned(va_list args)
+int print_uint(va_list args)
 {
 	unsigned int n;
 

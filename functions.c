@@ -19,7 +19,7 @@ int process_format(char specifier, va_list args)
 	else if (specifier == 'b')
 		return (print_binary(args));
 	else if (specifier == 'u')
-		return (print_unsigned(args));
+		return (print_uint(args));
 	else if (specifier == 'o')
 		return (print_octal(args));
 	else if (specifier == 'x')
