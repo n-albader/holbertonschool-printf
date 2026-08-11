@@ -2,11 +2,6 @@
 
 A custom implementation of the printf function in C.
 
-## Authors
-
-- Noor
-- Ahmed
-
 ## Description
 
 This project implements a simplified version of the C printf function.
@@ -32,7 +27,15 @@ Compiling
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o _printf_test
 Compile together with your own main.c that includes main.h.
 
-Authors
+Task 2&3:
+
+- %b - binary
+- %u - unsigned decimal integer
+- %o - octal
+- %x - lowercase hexadecimal
+- %X - uppercase hexadecimal
+
+## Authors
 Noor Abdullah Albadr, Ahmed Mamdouh Alrifai
 
 Sic. Parvis. Magna
