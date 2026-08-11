@@ -34,3 +34,5 @@ Compile together with your own main.c that includes main.h.
 
 Authors
 Noor Abdullah Albadr, Ahmed Mamdouh Alrifai
+
+Sic. Parvis. Magna
