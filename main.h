@@ -16,6 +16,10 @@ int print_string(va_list args);
 int print_percent(va_list args);
 int print_number(va_list args);
 int process_format(char specifier, va_list args);
+int print_binary(va_list args);
+int print_uint(va_list args);
+int print_octal(va_list args);
+int print_hex(va_list args, int uppercase);
 
 int _putchar(char c);
 

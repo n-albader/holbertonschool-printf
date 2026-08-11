@@ -16,11 +16,20 @@ int process_format(char specifier, va_list args)
 		return (print_percent(args));
 	else if (specifier == 'd' || specifier == 'i')
 		return (print_number(args));
+	else if (specifier == 'b')
+		return (print_binary(args));
+	else if (specifier == 'u')
+		return (print_uint(args));
+	else if (specifier == 'o')
+		return (print_octal(args));
+	else if (specifier == 'x')
+		return (print_hex(args, 0));
+	else if (specifier == 'X')
+		return (print_hex(args, 1));
 
 	_putchar('%');
 	return (1 + _putchar(specifier));
 }
-
 /**
  * _putchar - writes a character to stdout
  * @c: character to print
