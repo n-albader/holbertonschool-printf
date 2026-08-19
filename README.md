@@ -35,6 +35,7 @@ Compile together with your own main.c that includes main.h.
 
 Example:
 
+```
 int main(void)
 {
     _printf("Hello %s\n", "World");
@@ -44,14 +45,18 @@ int main(void)
     _printf("Hex: %x\n", 255);
 
     return (0);
+
 }
+```
+
 Example output:
+```
 Hello World
 Character: A
 Number: 42
 Binary: 1010
 Hex: ff
-
+```
 ## Requirements and Constraints
 
 The project follows the required C compilation standards:
